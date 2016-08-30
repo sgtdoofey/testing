@@ -1,0 +1,26 @@
+{
+  "name": "testing",
+  "title": "Testing",
+  "description": "Learning how to use this stuff",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sgtdoofey/testing",
+  "author": {
+    "name": "Sam Cox",
+    "email": "samcox@internode.on.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgtdoofey/testing.git"
+  },
+  "bugs": "https://github.com/sgtdoofey/testing/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sgtdoofey/testing/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}

@@ -1,19 +1,19 @@
 {
-  "name": "testing",
-  "version": "1.0.0",
-  "description": "Testing stuff",
-  "main": "index.js",
+  "name": "jquery-plugin",
+  "version": "0.0.0-ignored",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt qunit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sgtdoofey/testing.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sgtdoofey/testing/issues"
-  },
-  "homepage": "https://github.com/sgtdoofey/testing#readme"
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.5"
+  }
 }
